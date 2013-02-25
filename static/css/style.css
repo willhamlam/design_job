@@ -8,3 +8,169 @@ caption,th {text-align: left;}
 h1,h2,h3,h4,h5,h6 {font-size: 100%;font-weight: normal;}
 q:before,q:after {content: '';}
 abbr,acronym {border: 0;}
+a{text-decoration: none;}
+
+/* font-face */
+@font-face {
+	font-family: 'DenneShuffle';
+	src: url('../fonts/denne_shuffle-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/denne_shuffle-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/denne_shuffle-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/denne_shuffle-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/denne_shuffle-webfont.svg#DenneShuffle') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'VAL';
+	src: url('../fonts/val-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/val-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/val-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/val-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/val-webfont.svg#DenneShuffle') format('svg'); /* Legacy iOS */
+}
+/* common.css */
+body {
+	width: 100%;
+	height: 100%; 
+	background-image: -webkit-linear-gradient(left, #4a1717,#962e2e,#4a1717);
+	font-family: Arial;
+}
+
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+.bg_pic {
+	position: absolute;
+	left: 50%;
+	top: 10px;
+	margin-left: -750px;
+	z-index: -1;
+}
+
+/* page.css */
+
+/*header*/
+.header-banner {
+	width: 100%;
+	height: 160px;
+	background-image: url(../img/header-banner.jpg);
+	position: relative;
+	text-align: center;
+}
+
+.logo {
+	position: absolute;
+	top: -75px;
+	left: 10px;
+}
+
+.header-title {
+	font-family: 'DenneShuffle';
+	font-size: 38px;
+	color: #fed11f;
+	text-transform: uppercase;
+	width: 500px;
+	margin: 0px auto;
+	padding-top: 10px;
+	line-height: 35px;
+}
+.header-buttons {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+.header-buttons a{
+	display: inline-block;
+	/*font-family: 'VAL';*/
+	color: #ffffff;
+	width: 120px;
+	line-height: 25px;
+	border-radius: 10px;
+	background-color: #e71a1a;
+	font-size: 15px;
+}
+.header-buttons a.grey {
+	background-color: #B9B9B9;
+}
+
+.header-player {
+	width: 100%;
+	height: 150px;
+	background-color: #000000;
+	border-radius: 10px;
+	margin-top: -20px;
+	position: relative;
+	z-index: 1;
+	background-image: -webkit-linear-gradient(top, #000000,#191919,#000000);
+}
+
+.header-player-pic {
+	display: inline-block;
+	margin: 10px;
+}
+.header-player-wrap {
+	display: inline-block;
+	position: relative;
+	top: -13px;
+}
+
+.header-player-list li a {
+	display: block;
+	width: 385px;
+	line-height: 10px;
+	color: #000000;
+	background-color: #bebebe;
+	margin-bottom: 2px;
+	font-size: 14px;
+	padding: 10px;
+}
+
+.header-player-list li a:hover {
+	color: #ff0000;
+	background-color: #ececec;
+}
+.header-player-button {
+	display: block;
+	width: 390px;
+	border: 3px solid #ffffff;
+	background-color: #2B2B2B;
+	text-align: center;
+	padding: 5px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.header-nav {
+	background-image: url(../img/bg.jpg);
+	height: 65px;
+	position: relative;
+	top: -10px;
+}
+.header-nav-banner {
+	background-color: #1D1D1D;
+	width: 980px;
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+}
+.header-nav-list {
+	display: inline-block;
+	height: 40px;
+}
+.header-nav-list li{
+	display: inline-block;
+	text-align: center;
+	height: 20px;
+	padding: 2px 6px;
+	border-right: 1px solid;
+}
+
+.header-nav-list a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 12px;
+}
+.header-nav-search {
+	display: inline-block;
+}
