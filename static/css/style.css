@@ -182,9 +182,11 @@ body {
 	display: inline-block;
 }
 
-/* page.css */
+/*---- page.css----- */
 
 /*homepage*/
+
+/*main*/
 .main .wrap{
 	background-image: url(../img/bg.jpg);
 	overflow: hidden;
@@ -197,6 +199,7 @@ body {
 	width: 675px;
 }
 
+/* main-col */
 .main-col {
 	width: 450px;
 	margin-right: 5px;
@@ -205,7 +208,7 @@ body {
 	overflow: hidden;
 	margin: 30px 0px;
 }
-
+/* hp-news */
 .hp-news {
 	background-color: #ffffff;
 }
@@ -224,9 +227,6 @@ body {
 	padding: 5px;
 	margin: 0 5px;
 	border-bottom: 1px solid #999;
-}
-.hp-news-item-pic {
-	/*margin: 0px 5px;*/
 }
 .hp-news-item-des {
 	margin: 4px;
@@ -260,7 +260,7 @@ body {
 	font-weight: bold;
 	float: right;
 }
-
+/* hp-inpictures */
 .hp-inpictures {
 	margin-top: 15px;
 	background-color: #ffffff;
@@ -276,9 +276,12 @@ body {
 	font-weight: bold;
 }
 
+/* sub-col */
 .sub-col {
 	width: 210px;
 }
+
+/* hp-survey */
 .hp-survey {
 	background-color: #fffead;
 	margin-bottom: 20px;
@@ -318,6 +321,7 @@ body {
 	margin: 20px auto 10px;
 }
 
+/* hp-events */
 .hp-events {
 	background-color: #fffead;
 	margin-bottom: 20px;
@@ -356,11 +360,16 @@ body {
 	border: 0px;
 }
 
+/* -----sidebar----- */
+
+/* samll_ad_box */
 .small_ad_box {
 	width: 300px;
 	height: 250px;
 	background-color: #000000;
 }
+
+/* rank-list */
 .sidebar-rank-list {
 	margin: 15px 0;
 	background-color: #ffffff;
@@ -424,6 +433,7 @@ body {
 	text-align: center;
 }
 
+/* post-list */
 .sidebar-item-post {
 	margin: 15px 0;
 	background-color: #ffffff;
@@ -448,6 +458,7 @@ body {
 	background-color: #D3D3D3;
 }
 
+/* facebook-box */
 .facebook_content {
 	padding-bottom: 10px;
 	border-bottom: 1px solid #999;
@@ -520,6 +531,7 @@ body {
 	color: #999;
 }
 
+/* big_ad_box */
 .big_ad_box {
 	width: 730px;
 	height: 95px;
@@ -530,6 +542,7 @@ body {
 	margin: 0 auto 30px;
 }
 
+/* ----- footer ----- */
 .footer .wrap{
 	background-image: -webkit-linear-gradient(top, #000000,#191919,#000000);
 }
