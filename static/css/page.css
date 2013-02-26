@@ -387,6 +387,7 @@
 	font-size: 30px;
 	font-family: 'DenneShuffle';
 	border-bottom: 1px solid #999;
+	margin-bottom: 20px;
 }
 
 .shedule-date {
@@ -501,4 +502,22 @@
 div.show-item:last-child {
 	border: 0;
 	padding: 0;
+}
+
+/*---------------------------------- shows.page -----------------------------------*/
+.shows-pages-nav {
+	text-align: center;
+	margin: 30px;
+}
+
+.shows-pages-num {
+	display: inline-block;
+	width: 20px;
+	line-height: 19px;
+	border: 1px solid #999;
+}
+
+.shows-pages-num a{
+	color: #000000;
+	display: block;
 }
