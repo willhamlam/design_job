@@ -191,6 +191,7 @@ body {
 }
 .wrap-inner {
 	padding: 10px;
+	overflow: hidden;
 }
 .content {
 	width: 675px;
@@ -352,5 +353,249 @@ body {
 }
 
 .hp-events li:last-child {
+	border: 0px;
+}
+
+.small_ad_box {
+	width: 300px;
+	height: 250px;
+	background-color: #000000;
+}
+.sidebar-rank-list {
+	margin: 15px 0;
+	background-color: #ffffff;
+}
+
+.sidebar-box-title {
+	font-family: 'DenneShuffle';
+	font-size: 32px;
+	text-transform: uppercase;
+	line-height: 30px;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #999;
+}
+
+.sidebar-rank {
+	margin-bottom: 20px;
+}
+
+.sidebar-rank-item {
+	padding: 6px 0px;
+}
+
+.sidebar-rank-num {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.sidebar-people-icon {
+	vertical-align: bottom;
+	margin-left: 10px;
+}
+
+.sidebar-people-des {
+	display: inline-block;
+}
+
+.sidebar-people-job {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	color: #000000;
+}
+
+.sidebar-people-info {
+	font-size: 12px;
+	display: block;
+	color: #000000;
+}
+
+.rank-list-button {
+	display: block;
+	width: 229px;
+	line-height: 30px;
+	margin: 0 auto 15px;
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+	background-color: #1C1C1C;
+	text-align: center;
+}
+
+.sidebar-item-post {
+	margin: 15px 0;
+	background-color: #ffffff;
+}
+
+.sidebar-post-item {
+	width: 230px;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	color: black;
+	padding: 10px 5px;
+}
+
+.sidebar-posts li:nth-child(2n) {
+	background-color: #D3D3D3;
+}
+.top-deals li.sidebar-rank-item{
+	padding-left: 5px; 
+}
+.top-deals li:nth-child(2n) {
+	background-color: #D3D3D3;
+}
+
+.facebook_content {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #999;
+}
+
+.facebook_des {
+	display: inline-block;
+	position: absolute;
+}
+
+.facebook_like_box {
+	background-color: #ffffff;
+}
+
+.facebook_title {
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	margin: 5px;
+}
+.facebook_like_button {
+	display: block;
+	width: 43px;
+	line-height: 20px;
+	background-color: #4D9BD8;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	margin: 5px;
+	font-size: 12px;
+}
+
+.facebook_likers {
+	border-bottom: 1px solid #999;
+}
+
+.facebook_likers_list {
+	margin: 5px 0px;
+}
+
+.facebook_liker {
+	display: inline-block;
+	padding: 1px;
+}
+
+.facebook_liker_name {
+	font-size: 12px;
+	color: black;
+	text-align: center;
+}
+
+.facebook_liker_name h1 {
+	font-weight: bold;
+}
+
+.facebook_likers p {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.facebook_link {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	display: inline-block;
+}
+
+.facebook-cr {
+	font-size: 12px;
+	color: #999;
+}
+
+.big_ad_box {
+	width: 730px;
+	height: 95px;
+	background-color: #35B6D6;
+	display: block;
+	border: 3px solid #ffffff;
+	border-radius: 5px;
+	margin: 0 auto 30px;
+}
+
+.footer .wrap{
+	background-image: -webkit-linear-gradient(top, #000000,#191919,#000000);
+}
+
+.footer-banner {
+	overflow: hidden;
+	position: relative;
+}
+
+.footer-logo {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -85px;
+}
+
+.footer-slogan {
+	display: block;
+	width: 300px;
+	line-height: 30px;
+	font-family: 'DenneShuffle';
+	font-size: 37px;
+	color: #FED11F;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 25px;
+}
+.footer-nav {
+	display: block;
+	padding: 5px 0px 40px 0;
+	text-align: center;
+}
+
+.footer-nav-item {
+	display: inline-block;
+}
+
+.footer-sub-nav {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.footer-nav-item a {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin: 10px;
+}
+
+.footer-sub-nav-item {
+	display: inline-block;
+	padding: 0px 5px;
+	border-right: 1px solid white;
+	line-height: 10px;
+}
+
+.footer-sub-nav-item a{
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.copyright {
+	color: white;
+	font-size: 12px;
+}
+
+.footer-sub-nav ul li:last-child {
 	border: 0px;
 }
