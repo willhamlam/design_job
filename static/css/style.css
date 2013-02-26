@@ -27,6 +27,8 @@ a{text-decoration: none;}
 	     url('../fontface/fonts/val-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
 	     url('../fontface/fonts/val-webfont.svg#DenneShuffle') format('svg'); /* Legacy iOS */
 }
+
+
 /* common.css */
 body {
 	width: 100%;
