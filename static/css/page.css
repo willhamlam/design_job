@@ -434,7 +434,7 @@
 }
 
 .show-item {
-	height: 90px;
+	/*height: 90px;*/
 	position: relative;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #999;
@@ -520,4 +520,44 @@ div.show-item:last-child {
 .shows-pages-num a{
 	color: #000000;
 	display: block;
+}
+
+/*---------------------------------- presenter.page -----------------------------------*/
+.show-detail.presenter {
+	width: 350px;
+}
+
+.show-des.presenter {
+	position: absolute;
+	top: 0px;
+	left: 130px;
+}
+.item-nav.presenter {
+	top: 0px;
+	left: 0px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.item-nav.presenter .item-nav-button1 {
+	display: inline-block;
+	width: 90px;
+	line-height: 20px;
+	background-color: #151515;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	float: none;
+	margin-bottom: 3px;
+}
+
+.item-nav.presenter .item-nav-button2 {
+	display: inline-block;
+	width: 100px;
+	line-height: 20px;
+	background-color: #1F69B3;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	float: none;
 }
