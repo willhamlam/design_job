@@ -13,19 +13,19 @@ a{text-decoration: none;}
 /* font-face */
 @font-face {
 	font-family: 'DenneShuffle';
-	src: url('../fonts/denne_shuffle-webfont.eot'); /* IE9 Compat Modes */
-	src: url('../fonts/denne_shuffle-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('../fonts/denne_shuffle-webfont.woff') format('woff'), /* Modern Browsers */
-	     url('../fonts/denne_shuffle-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-	     url('../fonts/denne_shuffle-webfont.svg#DenneShuffle') format('svg'); /* Legacy iOS */
+	src: url('../fontface/fonts/denne_shuffle-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fontface/fonts/denne_shuffle-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fontface/fonts/denne_shuffle-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fontface/fonts/denne_shuffle-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fontface/fonts/denne_shuffle-webfont.svg#DenneShuffle') format('svg'); /* Legacy iOS */
 }
 @font-face {
 	font-family: 'VAL';
-	src: url('../fonts/val-webfont.eot'); /* IE9 Compat Modes */
-	src: url('../fonts/val-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('../fonts/val-webfont.woff') format('woff'), /* Modern Browsers */
-	     url('../fonts/val-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-	     url('../fonts/val-webfont.svg#DenneShuffle') format('svg'); /* Legacy iOS */
+	src: url('../fontface/fonts/val-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fontface/fonts/val-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fontface/fonts/val-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fontface/fonts/val-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fontface/fonts/val-webfont.svg#DenneShuffle') format('svg'); /* Legacy iOS */
 }
 /* common.css */
 body {
