@@ -355,3 +355,150 @@
 	border-radius: 5px;
 	margin: 0 auto 30px;
 }
+
+/*------------------------------- shedule.page ------------------------------*/
+
+.page-menu {
+	background: -webkit-linear-gradient(left, #202020, rgba(136, 136, 136, 0));
+	margin-bottom: 10px;
+}
+
+.page-menu-item {
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.page-menu li:first-child a{
+	color: #ffffff;
+	font-size: 13px;
+}
+
+.page-menu-item a{
+	font-size: 12px;
+	color: #FFEB00;
+	padding: 2px;
+}
+
+.page-content {
+	background-color: #ffffff;
+}
+
+.page-title {
+	font-size: 30px;
+	font-family: 'DenneShuffle';
+	border-bottom: 1px solid #999;
+}
+
+.shedule-date {
+	margin: 10px 0;
+}
+
+.shedule-date ul {
+
+	background-color: #1d1d1d;
+}
+
+.shedule-date-item {
+	display: inline-block;
+	width: 94px;
+	text-align: center;
+	border-right: 1px solid black;
+	margin-right: -5px;
+}
+
+.shedule-date ul li:last-child {
+	border: 0;
+}
+.shedule-date-item a {
+	display: block;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.shedule-date-item a:hover {
+	background-color: #fed11f;
+	color: #000000;
+}
+
+.shows-duration {
+	background-color: #B00005;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+.show-item {
+	height: 90px;
+	position: relative;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 15px;
+}
+
+.show-des {
+	display: inline-block;
+	line-height: 17px;
+}
+
+.show-long {
+	font-size: 13px;
+	font-weight: bold;
+	color: #B00005;
+	margin-bottom: 3px;
+}
+
+.show-name {
+	font-size: 20px;
+	margin-bottom: 3px;
+	color: #000000;
+}
+
+.show-presenter {
+	font-size: 12px;
+	color: #1B6CB0;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.show-detail {
+	font-size: 12px;
+	color: #999;
+	width: 450px;
+	display: block;
+}
+.item-nav {
+	position: absolute;
+	top: 0px;
+	left: 555px;
+}
+
+.item-nav-button1 {
+	display: block;
+	width: 90px;
+	background-color: #151515;
+	color: #ffffff;
+	font-size: 12px;
+	text-align: center;
+	float: right;
+	margin-bottom: 3px;
+}
+
+.item-nav-button2 {
+	display: block;
+	width: 100px;
+	background-color: #1F69B3;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	clear: both;
+}
+
+div.show-item:last-child {
+	border: 0;
+	padding: 0;
+}
