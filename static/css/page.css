@@ -1,4 +1,4 @@
-/* -----homepage-----*/
+/* ----------------------------------homepage---------------------------------*/
 
 /*main*/
 .main .wrap{
@@ -181,6 +181,7 @@
 	width: 300px;
 	height: 250px;
 	background-color: #000000;
+	margin-bottom: 10px;
 }
 
 /* rank-list */
@@ -384,7 +385,7 @@
 }
 
 .page-title {
-	font-size: 30px;
+	font-size: 40px;
 	font-family: 'DenneShuffle';
 	border-bottom: 1px solid #999;
 	margin-bottom: 20px;
@@ -570,4 +571,33 @@ div.show-item:last-child {
 	text-align: right;
 	font-size: 15px;
 	font-weight: bold;
+}
+
+/*---------------------------------- legal.page -----------------------------------*/
+.legal-page-title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.legal-page-sub-title {
+	font-size: 12px;
+	margin: 2px 0;
+}
+
+.legal-title {
+	display: inline-block;
+	text-decoration: underline;
+	font-size: 12px;
+	color: #000000;
+}
+
+.legal-people {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.legal-announce {
+	font-size: 12px;
+	line-height: 20px;
 }

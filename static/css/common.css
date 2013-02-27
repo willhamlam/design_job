@@ -24,6 +24,10 @@ body {
 .right {
 	float: right;
 }
+
+.blue {
+	color: #1C6CB0;
+}
 /*header*/
 .header {
 	height: 345px;
