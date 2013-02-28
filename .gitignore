@@ -1,0 +1,11 @@
+wordpress/wp-admin
+wordpress/wp-includes
+wordpress/*.*
+wordpress/wp-content/plugins
+wordpress/wp-content/*.*
+wordpress/wp-content/themes/twentyeleven
+wordpress/wp-content/themes/twentytwelve
+wordpress/wp-content/themes/*.*
+
+.DS_Store
+
