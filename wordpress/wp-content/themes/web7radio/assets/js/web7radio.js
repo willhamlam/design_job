@@ -7,5 +7,7 @@
 		    strPause: 'Pause', // default value: 'Pause'
 		    strVolume: 'Volume', // default value: 'Volume'
 		});
+
+		console.log('success');
 	});
 })(jQuery);

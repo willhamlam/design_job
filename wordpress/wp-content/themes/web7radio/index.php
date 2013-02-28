@@ -10,9 +10,7 @@
 
 			<?php app_require('include/tpl/sidebar'); ?>
 
-
 			<?php app_require('include/tpl/ad'); ?>
-
 
 		</div>
 	</div>
