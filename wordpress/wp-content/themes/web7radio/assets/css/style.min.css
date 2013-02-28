@@ -1,0 +1,11 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0}a{text-decoration:none}
+@font-face{font-family:'DenneShuffle';src:url('../fonts/denne_shuffle-webfont.eot');src:url('../fonts/denne_shuffle-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/denne_shuffle-webfont.woff') format('woff'),url('../fonts/denne_shuffle-webfont.ttf') format('truetype'),url('../fonts/denne_shuffle-webfont.svg#DenneShuffle') format('svg')}
+@font-face{font-family:'VAL';src:url('../fonts/val-webfont.eot');src:url('../fonts/val-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/val-webfont.woff') format('woff'),url('../fonts/val-webfont.ttf') format('truetype'),url('../fonts/val-webfont.svg#DenneShuffle') format('svg')}
+body{width:100%;height:100%;background-image:-webkit-linear-gradient(left,#4a1717,#962e2e,#4a1717);font-family:Arial}.wrap{width:1000px;margin:0 auto}
+.bg_pic{position:absolute;left:50%;top:10px;margin-left:-750px;z-index:-1}.header-banner{width:100%;height:160px;background-image:url(../img/header-banner.jpg);position:relative;text-align:center}
+.logo{position:absolute;top:-75px;left:10px}.header-title{font-family:'DenneShuffle';font-size:38px;color:#fed11f;text-transform:uppercase;width:500px;margin:0 auto;padding-top:10px;line-height:35px}
+.header-buttons{position:absolute;right:20px;top:10px}.header-buttons a{display:inline-block;color:#fff;width:120px;line-height:25px;border-radius:10px;background-color:#e71a1a;font-size:15px}
+.header-buttons a.grey{background-color:#b9b9b9}.header-player{width:100%;height:150px;background-color:#000;border-radius:10px;margin-top:-20px;position:relative;z-index:1;background-image:-webkit-linear-gradient(top,#000,#191919,#000)}
+.header-player-pic{display:inline-block;margin:10px}.header-player-list{display:inline-block}.header-player-list li a{display:block;width:430px;line-height:28px;color:#000;background-color:#bebebe}

@@ -12,10 +12,12 @@ function loadscript() {
 		wp_register_script('template', THEME_URL . '/assets/js/libs/artTemplate.js');
 
 		wp_enqueue_script('jquery');
-		wp_enqueue_script('app');
+		// wp_enqueue_script('app');
 		wp_enqueue_script('template');
 
-		wp_enqueue_style( 'bootstrap', THEME_URL . '/assets/css/bootstrap/css/bootstrap.min.css' );
+		wp_enqueue_style( 'base', THEME_URL . '/assets/css/base.css' );
+		wp_enqueue_style( 'common', THEME_URL . '/assets/css/common.css' );
+		wp_enqueue_style( 'page', THEME_URL . '/assets/css/page.css' );
 	}
 }
 add_action('init', 'loadscript');
