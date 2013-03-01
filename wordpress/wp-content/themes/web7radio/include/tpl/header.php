@@ -21,7 +21,7 @@
 
 			<!-- header-banner -->
 			<div class="header-banner">
-				<img class="logo" src="<?php echo THEME_URL; ?>/assets/img/logo.png" alt="">
+				<a href="<?php bloginfo('url');?>" title="logo"><img class="logo" src="<?php echo THEME_URL; ?>/assets/img/logo.png" alt=""></a>
 				<h1 class="header-title">la web radio du 7e,<br>
 				la radio par et pour les jeunes !</h1>
 				<div class="header-buttons">
@@ -47,7 +47,7 @@
 			<!-- header-nav -->
 			<div class="header-nav">
 				<div class="header-nav-banner">
-					<ul class="header-nav-list">
+					<!-- <ul class="header-nav-list">
 						<li><a href="#">GRille des<br>programmes</a></li>
 						<li><a href="#">émissions</a></li>
 						<li><a href="#">devenez animateurs</a></li>
@@ -57,7 +57,24 @@
 						<li><a href="#">Bons plans<br>/ sorties</a></li>
 						<li><a href="#">conseils</a></li>
 						<li><a href="#">Forums</a></li>
+					</ul> -->
+					<?php
+						if(function_exists('wp_nav_menu')):
+								wp_nav_menu(
+										array(
+										'menu' =>'primary_nav',
+										'container'=>'',
+										'depth' => 1,
+										'menu_class'=> 'header-nav-list', )
+								);
+						else:
+					?>
+					<ul class="header-nav-list">
+					<?php wp_list_pages('title_li=&depth=1'); ?>
 					</ul>
+				<?php
+					endif;
+				?>
 					<form class="header-nav-search">
 		        <input type="text" placeholder="Rechercher" required>
 		        <button type="submit">Search</button>

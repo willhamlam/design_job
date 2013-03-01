@@ -20,5 +20,22 @@
 				//buttonImage: "img/calendar-blue.png",
 				//buttonImageOnly: true,
 			});
+
+		$(".royalSlider").royalSlider({
+	            // options go here
+	            // as an example, enable keyboard arrows nav
+	            keyboardNavEnabled: true,
+	            // imgcalePadding: 0,
+	            controlNavigation: 'thumbnails',
+	            imgWidth: 554,
+	            
+	            thumbs: {
+				    		// thumbnails options go gere
+				    		// spacing: 10,
+				    		arrowsAutoHide: false,
+				    		orientation: 'vertical', 
+				    	}
+	        });  
+
 	});
 })(jQuery);

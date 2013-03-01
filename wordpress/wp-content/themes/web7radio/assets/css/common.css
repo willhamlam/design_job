@@ -10,6 +10,12 @@ body {
 	width: 1000px;
 	margin: 0 auto;
 }
+
+.main .wrap{
+	background-image: url(../img/bg.jpg);
+	overflow: hidden;
+}
+
 .bg_pic {
 	position: absolute;
 	left: 50%;
@@ -148,6 +154,15 @@ body {
 	border-right: 1px solid;
 }
 
+.header-nav-list li:first-child{
+	width: 90px;
+	line-height: 18px;
+}
+
+.header-nav-list li:nth-child(7){
+	width: 80px;
+	line-height: 18px;
+}
 .header-nav-list a {
 	text-transform: uppercase;
 	color: #ffffff;

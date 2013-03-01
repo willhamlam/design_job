@@ -1,4 +1,4 @@
-/* ----------------------------------homepage---------------------------------*/
+ /*----------------------------------homepage---------------------------------*/*/
 
 /*main*/
 .main .wrap{
@@ -25,6 +25,45 @@
 	overflow: hidden;
 	margin: 30px 0px;
 }
+
+/* royalslider */
+
+.content .royalSlider {
+	width: 667px;
+  height: 318px;
+ }
+		.content .rsOverflow {
+			float: right;
+		}
+		.content .rsDefault .rsThumbsVer {	
+			left: 0;
+		}
+
+		.rs-info {
+			position: absolute;
+			bottom: 0px;
+			background: -webkit-linear-gradient(left, #1B1B1B, rgba(136, 136, 136, 0));
+			width: 542px;
+		}
+
+		.royal-wrap-inner {
+			padding: 0px 0px 0px 20px;
+		}
+
+		.rs-news-title {
+			margin: 10px 0px 0px;
+			font-size: 28px;
+			font-family: 'Arial';
+			color: #FFF;
+		}
+
+		.rs-news-des {
+			margin: 0px 0px 10px;
+			font-size: 12px;
+			font-family: 'Arial';
+			color: #FFF;
+		}
+
 /* hp-news */
 .hp-news {
 	background-color: #ffffff;
@@ -340,6 +379,11 @@
 	padding: 1px;
 }
 
+.facebook_liker_icon img{
+	width: 50px;
+	height: 50px;
+}
+
 .facebook_liker_name {
 	font-size: 12px;
 	color: black;
@@ -446,6 +490,14 @@
 .shedule-date-item a:hover {
 	background-color: #fed11f;
 	color: #000000;
+}
+.show-pic {
+	display: inline-block;
+}
+
+.show-pic img {
+	width: 153px;
+	height: 89px;
 }
 
 .shows-duration {
@@ -877,7 +929,7 @@ div.show-item:last-child {
 
 .form_item {
 	width: 280px;
-	height: 20px;
+	height: 40px;
 	padding: 5px;
 	margin-bottom: 10px;
 	outline: 0;
@@ -1049,4 +1101,4 @@ div.show-item:last-child {
     {
         display: none;
     }
-/*test*/
+/*test

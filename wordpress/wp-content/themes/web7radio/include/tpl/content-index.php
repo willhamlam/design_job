@@ -2,8 +2,63 @@
 			<div class="content left">
 			
 				<!-- slider -->
-				<div class="hp-slider">
-					<img src="<?php echo THEME_URL; ?>/assets/img/hp-slider.jpg" height="317" width="665" alt="">
+				<div class="royalSlider rsDefault">
+					
+			    <div class="rsContent">
+			    	<div class="hp-slider-wrap">
+			    		<img class="rsImg" src="<?php echo THEME_URL; ?>/assets/img/hp-slider-pic2.jpg" data-rsTmb="<?php echo THEME_URL; ?>/assets/img/hp-slider-pic2.jpg"/>
+			    		<div class="rs-info">
+				    		<div class="royal-wrap-inner">
+				    			<a href="#" title=""><h1 class="rs-news-title">INNSBRUCK</h1></a>
+				    			<a href="#" title=""><p class="rs-news-des">this is a long des about this</p></a>
+				    		</div>	    			
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="rsContent">
+			    	<div class="hp-slider-wrap">
+			    		<img class="rsImg" src="<?php echo THEME_URL; ?>/assets/img/hp-slider-pic2.jpg" data-rsTmb="<?php echo THEME_URL; ?>/assets/img/hp-slider-pic2.jpg"/>
+			    		<div class="rs-info">
+			    		<div class="royal-wrap-inner">
+			    			<a href="#" title=""><h1 class="rs-news-title">INNSBRUCK</h1></a>
+			    			<a href="#" title=""><p class="rs-news-des">this is a long des about this</p></a>
+			    		</div>	    			
+			    	</div>
+			    </div>
+			    </div>
+			    <div class="rsContent">
+			    	<div class="hp-slider-wrap">
+			    		<img class="rsImg" src="<?php echo THEME_URL; ?>/assets/img/hp-slider-pic2.jpg" data-rsTmb="<?php echo THEME_URL; ?>/assets/img/hp-slider-pic2.jpg"/>
+			    		<div class="rs-info">
+			    		<div class="royal-wrap-inner">
+			    			<a href="#" title=""><h1 class="rs-news-title">INNSBRUCK</h1></a>
+			    			<a href="#" title=""><p class="rs-news-des">this is a long des about this</p></a>
+			    		</div>	    			
+			    	</div>
+			    </div>
+			    </div>
+			    <div class="rsContent">
+			    	<div class="hp-slider-wrap">
+			    		<img class="rsImg" src="<?php echo THEME_URL; ?>/assets/img/hp-slider-pic2.jpg" data-rsTmb="<?php echo THEME_URL; ?>/assets/img/hp-slider-pic2.jpg"/>
+			    		<div class="rs-info">
+			    		<div class="royal-wrap-inner">
+			    			<a href="#" title=""><h1 class="rs-news-title">INNSBRUCK</h1></a>
+			    			<a href="#" title=""><p class="rs-news-des">this is a long des about this</p></a>
+			    		</div>	    			
+			    	</div>
+			    </div>
+			    </div>
+			    <div class="rsContent">
+			    	<div class="hp-slider-wrap">
+			    		<img class="rsImg" src="<?php echo THEME_URL; ?>/assets/img/hp-slider-pic2.jpg" data-rsTmb="<?php echo THEME_URL; ?>/assets/img/hp-slider-pic2.jpg"/>
+			    		<div class="rs-info">
+			    		<div class="royal-wrap-inner">
+			    			<a href="#" title=""><h1 class="rs-news-title">INNSBRUCK</h1></a>
+			    			<a href="#" title=""><p class="rs-news-des">this is a long des about this</p></a>
+			    		</div>	    			
+			    	</div>
+			    </div>
+			    </div>
 				</div>
 				<div class="hp-content">
 					<!-- left-col -->
